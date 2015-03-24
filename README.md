@@ -12,15 +12,17 @@ This is a project in development by [Officine Robotiche] team.
 
 # Hardware features
 - 2 x A4950 Full-Bridge DMOS PWM Motor Driver
--- Up to 3,5A and 40V input ( limited at 23V if used with uNav )
--- Short circuit protected
--- Over Temperature protected
-- 2 indipendent bidirectional Hall-Effect current sensor.
+  - Up to 3,5A and 40V input ( limited at 23V if used with uNav )
+  - Short circuit protected
+  - Over Temperature protected
+- 2 x ACS712 Hall Effect-Based Linear Current Sensor IC
+  - ±5A Full-Scale input Range with 185mV/A variation
+  - 2,5V output @ 0.0A
+- 2 connector for Encoder with Gnd, Vcc, ChA, ChB, Chz signal.
+- 4 LED on outupt of H-Bridge.
+- Protection diode on input.
 - size: 4cm x 4cm uNav stackable.
 - Matrix board with holes 2.54mm compliant.
-- 4 LED on outupt of H-Bridge.
-- 2 connector for Encoder with Gnd, Vcc, ChA, ChB, Chz signal.
-- Protection diode on input.
 
 
  
