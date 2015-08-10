@@ -5,10 +5,10 @@ This is a project in development by [Officine Robotiche] team.
 
 ###Join on open firmware project [uNAV.X](https://github.com/officinerobotiche/uNAV.X)!!!
 
-![uBridge PCB Top](https://github.com/officinerobotiche/uBridgePCB/blob/master/Image/Board_uBridge_r1_PCB_Top.png)
-![uBridge PCB Bottom](https://github.com/officinerobotiche/uBridgePCB/blob/master/Image/Board_uBridge_r1_PCB_Bottom.png)
-![uBridge Silkscreen Top](https://github.com/officinerobotiche/uBridgePCB/blob/master/Image/Board_uBridge_r1_Silk_Top.png)
-![uBridge Silkscreen Bottom](https://github.com/officinerobotiche/uBridgePCB/blob/master/Image/Board_uBridge_r1_Silk_Bottom.png)
+![uBridge PCB Top](https://github.com/officinerobotiche/uBridgePCB/blob/master/Image/Board_uBridge_r1.1_PCB_Top.png)
+![uBridge PCB Bottom](https://github.com/officinerobotiche/uBridgePCB/blob/master/Image/Board_uBridge_r1.1_PCB_Bottom.png)
+![uBridge Silkscreen Top](https://github.com/officinerobotiche/uBridgePCB/blob/master/Image/Board_uBridge_r1.1_Silk_Top.png)
+![uBridge Silkscreen Bottom](https://github.com/officinerobotiche/uBridgePCB/blob/master/Image/Board_uBridge_r1.1_Silk_Bottom.png)
 
 # Hardware features
 - 2 x A4950 Full-Bridge DMOS PWM Motor Driver

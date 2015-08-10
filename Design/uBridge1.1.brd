@@ -30,7 +30,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="15" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -170,7 +170,7 @@
 <wire x1="-3.429" y1="36.449" x2="36.449" y2="36.449" width="0.0254" layer="20"/>
 <wire x1="36.449" y1="36.449" x2="36.449" y2="-3.429" width="0.0254" layer="20"/>
 <text x="20.574" y="14.732" size="1.6764" layer="22" font="vector" ratio="16" rot="MR90">uBridge
-Rel1.0</text>
+Rel1.1</text>
 <text x="18.415" y="8.128" size="1.016" layer="22" font="vector" ratio="17" rot="MR90">OFFICINEROBOTICHE.IT</text>
 <rectangle x1="20.493" y1="9.439" x2="20.683" y2="9.449" layer="22" rot="R90"/>
 <rectangle x1="20.388" y1="9.434" x2="20.808" y2="9.444" layer="22" rot="R90"/>
@@ -3120,7 +3120,7 @@ Rel1.0</text>
 <text x="35.306" y="5.08" size="1.016" layer="122" font="vector" ratio="25" rot="MR270" align="top-center">G</text>
 <text x="28.702" y="10.16" size="1.016" layer="122" font="vector" ratio="25" rot="MR0" align="center-left">IO2</text>
 <text x="20.574" y="14.732" size="1.6764" layer="122" font="vector" ratio="16" rot="MR90">uBridge
-Rel1.0</text>
+Rel1.1</text>
 <text x="18.415" y="8.128" size="1.016" layer="122" font="vector" ratio="25" rot="MR90">OFFICINEROBOTICHE.IT</text>
 <text x="28.702" y="5.334" size="1.016" layer="122" font="vector" ratio="25" rot="MR0" align="center-left">IO4</text>
 <text x="25.908" y="0" size="2.1844" layer="122" font="vector" ratio="20" rot="MR90" align="center-left">-</text>
@@ -4213,22 +4213,22 @@ design rules under a new name.</description>
 <wire x1="3.429" y1="13.97" x2="1.27" y2="13.97" width="0.254" layer="16"/>
 <wire x1="1.27" y1="13.97" x2="0" y2="12.7" width="0.254" layer="16"/>
 </signal>
-<signal name="IO4">
+<signal name="PG4">
 <contactref element="SV2" pad="20"/>
 </signal>
-<signal name="IO3">
+<signal name="GP3">
 <contactref element="SV2" pad="18"/>
 </signal>
-<signal name="IO2">
+<signal name="GP2">
 <contactref element="SV2" pad="16"/>
 </signal>
-<signal name="IO1">
+<signal name="GP1">
 <contactref element="SV2" pad="14"/>
 </signal>
-<signal name="IO5">
+<signal name="GP5">
 <contactref element="SV2" pad="17"/>
 </signal>
-<signal name="IO6">
+<signal name="GP6">
 <contactref element="SV2" pad="15"/>
 </signal>
 <signal name="RX2">
@@ -4623,7 +4623,7 @@ design rules under a new name.</description>
 <wire x1="3.556" y1="6.35" x2="1.27" y2="6.35" width="0.254" layer="16"/>
 <wire x1="1.27" y1="6.35" x2="0" y2="5.08" width="0.254" layer="16"/>
 </signal>
-<signal name="IO0">
+<signal name="GP0">
 <contactref element="SV2" pad="12"/>
 </signal>
 <signal name="N$14">

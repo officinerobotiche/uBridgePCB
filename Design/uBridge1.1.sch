@@ -17606,42 +17606,42 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="20.32" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="IO4" class="0">
+<net name="PG4" class="0">
 <segment>
 <wire x1="60.96" y1="10.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
 <label x="55.88" y="10.16" size="0.8128" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="SV2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="IO3" class="0">
+<net name="GP3" class="0">
 <segment>
 <label x="55.88" y="12.7" size="0.8128" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="SV2" gate="G$1" pin="18"/>
 <wire x1="55.88" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IO2" class="0">
+<net name="GP2" class="0">
 <segment>
 <wire x1="60.96" y1="15.24" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
 <label x="55.88" y="15.24" size="0.8128" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="SV2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="IO1" class="0">
+<net name="GP1" class="0">
 <segment>
 <wire x1="60.96" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
 <label x="55.88" y="17.78" size="0.8128" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="SV2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="IO5" class="0">
+<net name="GP5" class="0">
 <segment>
 <wire x1="76.2" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
 <label x="81.28" y="12.7" size="0.8128" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="SV2" gate="G$1" pin="17"/>
 </segment>
 </net>
-<net name="IO6" class="0">
+<net name="GP6" class="0">
 <segment>
 <wire x1="76.2" y1="15.24" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
 <label x="81.28" y="15.24" size="0.8128" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -18121,7 +18121,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="198.12" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="IO0" class="0">
+<net name="GP0" class="0">
 <segment>
 <wire x1="60.96" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
 <label x="55.88" y="20.32" size="0.8128" layer="95" ratio="9" rot="R180" xref="yes"/>
